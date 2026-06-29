@@ -279,7 +279,12 @@ a{color:inherit;text-decoration:none}
   .gal-span2{grid-column:span 2}
   .rev-inner{padding:26px 22px}
   .foot-grid{grid-template-columns:1fr}
-  .trust-chip{flex:1 1 100%}
+  .trust-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .trust-chip{padding:12px 13px;gap:9px;border-radius:11px}
+  .trust-chip svg{width:20px;height:20px}
+  .trust-chip .tt{font-size:.86rem}
+  .trust-chip .ts{font-size:.7rem}
+  .trust-chip:last-child{grid-column:1 / -1}
   .fgrid{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){
